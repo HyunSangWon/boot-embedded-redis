@@ -15,7 +15,7 @@ AWS와 같은 클라우드 환경에서는 멀티캐스트 기능이 없기에 �
 ***버전 없는 항목은 해당날짜에 맞는 최신버전***  
 
 Spring Boot 2.1.7 v  
-embedded-redis 0.7.2 v
+embedded-redis 0.7.2 v  
 spring-boot-starter-data-redis  
 lombok  
 

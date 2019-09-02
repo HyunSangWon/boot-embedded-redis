@@ -20,11 +20,9 @@ spring-boot-starter-data-redis
 lombok  
 
 ### Project Structure  
-Controller  
-+ RedisController (REST save기능과 find 기능만 있음)   
-Service  
+
++ RedisController (REST save기능과 find 기능만 있음)  
 + StudentService (StudentRepository를 구현,hashOperations 사용)  
-Config  
 + EmbeddedRedisConfig (profile이 dev인 것만 사용)    
 + RedisRepositoryConfig (실제 Redis 연동 부분)  
 

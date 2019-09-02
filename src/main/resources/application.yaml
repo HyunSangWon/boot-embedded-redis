@@ -1,0 +1,21 @@
+application:
+   version: v1.0.0
+   title: boot-redis
+   
+spring:
+   profiles:
+      active: dev
+      
+---
+spring:
+   profiles: dev
+   
+   redis:
+      host: localhost
+      port: 6379
+      
+   devtools:
+    livereload:
+      enabled: true
+    restart:
+      enabled: true

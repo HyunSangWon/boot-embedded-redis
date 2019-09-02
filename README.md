@@ -21,14 +21,14 @@ lombok
 
 ### Project Structure  
 Controller  
-+ RedisController (REST save기능과 find 기능만 있음)  
++ RedisController (REST save기능과 find 기능만 있음)   
 Service  
-+ StudentService (StudentRepository를 구현,hashOperations 사용)
++ StudentService (StudentRepository를 구현,hashOperations 사용)  
 Config  
-+ EmbeddedRedisConfig (profile이 dev인 것만 사용)  
++ EmbeddedRedisConfig (profile이 dev인 것만 사용)    
 + RedisRepositoryConfig (실제 Redis 연동 부분)  
 
 ### 참고 자료  
-http://arahansa.github.io/docs_spring/redis.html (Redis 정리 잘함)
+http://arahansa.github.io/docs_spring/redis.html (Redis 정리 잘함)  
 https://jistol.github.io/java/2017/09/15/tomcat-clustering/ (톰캣 세션클러스터링 한계)  
 https://jojoldu.tistory.com/297 (소스 참고)

@@ -21,6 +21,11 @@ public class RedisRepositoryConfig {
 	
 	@Bean
     public RedisConnectionFactory redisConnectionFactory() {
+		/* java의 Redis Client는 크게 2가지 
+		 * Jedis, Lettuce
+		 * Lettuce : Netty (비동기 이벤트 기반 고성능 네트워크 프레임워크) 기반의 Redis 클라이언트
+		 * Lettuce는 TPS/CPU/Connection 개수/응답속도 등 전 분야에서 우위에 있다.
+		 *  */
         return new LettuceConnectionFactory(redisHost, redisPort);//내장 레디스 혹은 설치된 레디스를 연결
     }
 
